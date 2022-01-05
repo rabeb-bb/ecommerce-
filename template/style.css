@@ -34,6 +34,14 @@ footer {
   color: white;
 }
 /* common classes */
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
 a {
   text-decoration: none;
 }
@@ -58,4 +66,34 @@ a.brand {
 }
 .row.center {
   justify-content: center;
+}
+/* image */
+img {
+  border-radius: 0.5rem;
+}
+img.medium {
+  max-width: 29rem;
+  width: 100%;
+}
+/* card */
+.card {
+  border: 0.1rem gainsboro solid;
+  background-color: ghostwhite;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.card-body {
+  padding: 1rem;
+}
+.card-body > * {
+  margin-bottom: 0.5rem;
+}
+.price {
+  font-size: 2rem;
+}
+
+/* rating */
+.rating span {
+  color: gold;
+  margin: 0.1rem;
 }
